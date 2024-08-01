@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tadayoshi Aoyama</title>
+
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <style type="text/css">
+  body { padding-top: 80px; }
+  @media ( min-width: 768px ) {
+    #banner {
+      min-height: 300px;
+      border-bottom: none;
+    }
+    .bs-docs-section {
+      margin-top: 8em;
+    }
+    .bs-component {
+      position: relative;
+    }
+    .bs-component .modal {
+      position: relative;
+      top: auto;
+      right: auto;
+      left: auto;
+      bottom: auto;
+      z-index: 1;
+      display: block;
+    }
+    .bs-component .modal-dialog {
+      width: 90%;
+    }
+    .bs-component .popover {
+      position: relative;
+      display: inline-block;
+      width: 220px;
+      margin: 20px;
+    }
+    .nav-tabs {
+      margin-bottom: 15px;
+    }
+    .progress {
+      margin-bottom: 10px;
+    }
+  }
+  </style>
+
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+<header>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="./index.html" class="navbar-brand">Tadayoshi Aoyama</a>　<h3>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../research.html">Research</a></li>
+          <li><a href="../publication.html">Publications</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+          <li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="pump.html">English Page</a></li>
+              <li><a href="pump-j.html">Japanese Page</a></li>
+            </ul>
+          </li>          
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+ 	<br>
+ 	<br> 
+ 	  
+<H2>Real-time Flow-rate Control System for Cell Analysis</H2>
+	On-chip cell analysis is an important issue for microtechnology research.
+   One approach to controlling the fluid flow in microfluidic devices for cell analysis is to use syringe pumps.
+   However, it is difficult to control the actual flow rate in a microfluidic device because of the difficulty of placing flow rate sensors in the device.
+   In this work, we developed a real-time flow-rate control system that uses syringe pumps and high-speed vision to measure the actual fluid flow in microfluidic devices.
+   The developed flow-rate control system was verified through experiments on microparticle velocity control and microparticle sorting.
+	<br>
+	
+	<div align="center">
+		<table>
+			<tr>	
+			<td width="156"><div style="text-align:center"> <img src="./pump/systemsorting.png" alt="Environment" width="400"  hspace="5"  vspace="5" /> </div></td> 
+			</tr>
+		</table>
+	</div>
+	
+	<br>
+
+	<div align="center">
+  		<table border="0" cellspacing="10" cellpadding="0">
+      		<tbody>
+        		<tr>
+          			<td>
+				  		<a href="./pump/pump.mp4"><img src="./pump/pump.png" border="0" align="top" width="230" height="173" alt="" /></a>
+					</td>
+          			<td><div class="ouyou2"><a href="./pump/pump.mp4">MP4 movie(5.0M)</a> <br/>
+             			Microparticle sorting experiment</div>
+					</td>
+	
+				</tr>
+			</tbody>
+    	</table>
+	</div>
+    <br>
+
+	</table><br /><br />
+    <h4>Reference</h4>
+    <div class="sankou">
+		 <ul type="square">
+			 <li>
+			 <a href="https://www.fujipress.jp/jrm/rb/robot002800060854/">
+			 Tadayoshi Aoyama, Amalka De Zoysa, Qingyi Gu, Takeshi Takaki, and Idaku Ishii: 
+			 Vision-based Real-time Micro Flow-rate Control System for Cell Analysis, 
+			 Journal of Robotics and Mechatronics, Vol.28, No.6, pp.854-861 (2016)  </a>
+			 </li>
+			 
+			<li>
+			<a href="http://dl.acm.org/citation.cfm?id=2783499&dl=ACM&coll=DL&CFID=572265596&CFTOKEN=13314896#URLTOKEN#">
+			Tadayoshi Aoyama, Amalka D. Zoysa, Qingyi Gu, Takeshi Takaki, and Idaku Ishii, Real-time Flow-rate Control System for Cell Analysis, 
+			Proceedings of Advances In Robotics (AIR'15), doi: 10.1145/2783449.2783499, 2015. </a>
+			</li> 
+		</ul>
+	</div>
+
+
+
+<Br>
+<Br>
+<Br>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $('.bs-component [data-toggle="popover"]').popover();
+  $('.bs-component [data-toggle="tooltip"]').tooltip();
+</script>
+
+</body>
+</html>
